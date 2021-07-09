@@ -1,0 +1,35 @@
+<head>
+    <title>FOREST FIRE MONITERING SYSTEM</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="main">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Temperature.html">Temperature Data</a></li>
+                <li><a href="Humidity.html">Humidity Data</a></li>
+                <li><a href="Flamesensor.html">Flamesensor Data</a></li>
+                <li class="active"><a href="Smokesensor.html">Smokesensor Data</a></li>
+            </ul>
+            <div class="title">
+            <h1> Smokesensor Data</h1>
+            
+        
+            <hr>
+    <label>Please Select the date:-</label><input type = "date"  id="demo">   
+    <button class="btn btn-success" type="button" onclick="myFunction()">Plot data</button>
+
+    <br><br>
+        </div>
+        <div><h4  id="chartContainer"></h4>
+    </hr>
+        
+        
+    </header>
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+      <script type="text/javascript" src="scripts.js"></script>
+
+</body>
+</html> 
